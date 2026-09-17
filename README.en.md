@@ -1,5 +1,9 @@
 # Principled Simplicity · 大道至简 Skill
 
+<p align="center">
+  <img src="./assets/hero.webp" alt="Principled Simplicity · 大道至简" width="100%">
+</p>
+
 **Fix the layer, not the case.**
 
 A mechanism-level repair skill distilled from real AI / Agent engineering practice.
@@ -176,6 +180,8 @@ principled-simplicity/
 ├── SKILL.md
 ├── README.md
 ├── README.en.md
+├── assets/
+│   └── hero.webp
 ├── references/
 │   ├── patterns.md
 │   ├── procedure.md
@@ -207,7 +213,7 @@ It comes from a recurring engineering observation: when prompts, rules, routing,
 
 If the problem is still upstream — “should this demand be built at all?” — use:
 
-**[Yu Jun Skill · Product Judgment](https://github.com/Longfellow1/Yujun-skill)**  
+**[Product Judgment · 产品判断](https://github.com/Longfellow1/Product-judgment-skill)**  
 *Judge the demand before writing the PRD.*
 
 ---
