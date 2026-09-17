@@ -1,1 +1,1 @@
-# principled-simplicity
+# principled-simplicity-skill
