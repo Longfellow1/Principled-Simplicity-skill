@@ -1,5 +1,9 @@
 # 大道至简 Skill · Principled Simplicity
 
+<p align="center">
+  <img src="./assets/hero.webp" alt="大道至简 · Principled Simplicity" width="100%">
+</p>
+
 **Fix the layer, not the case.**
 
 来自真实 AI / Agent 工程实践的机制层修复 Skill。
@@ -177,6 +181,8 @@ principled-simplicity/
 ├── SKILL.md
 ├── README.md
 ├── README.en.md
+├── assets/
+│   └── hero.webp            # README 头图
 ├── references/
 │   ├── patterns.md
 │   ├── procedure.md
@@ -208,7 +214,7 @@ principled-simplicity/
 
 如果问题还没进入工程阶段，真正需要先判断的是“这个需求到底该不该做”，可以使用：
 
-**[俞军 Skill · Product Judgment](https://github.com/Longfellow1/Yujun-skill)**  
+**[产品判断 · Product Judgment](https://github.com/Longfellow1/Product-judgment-skill)**  
 *先判断需求，再写 PRD。*
 
 ---
