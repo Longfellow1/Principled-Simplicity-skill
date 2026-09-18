@@ -32,7 +32,7 @@
 |---|---|---|
 | Badcase 补丁成瘾 | 每个失败都变成一条特殊规则 | 修之前先按根因聚类 |
 | 关键词路由成瘾 | 工具选择依赖表层词,而非意图与上下文 | 建意图分类器;规则只管可用性/权限 |
-| Prompt 膨胀 | 系统 Prompt 变成未解决决策的垃圾桶 | 加载 `references/prompt-triage.md`,重分配到 memory/skill/code |
+| Prompt 膨胀 | 系统 Prompt 变成未解决决策的垃圾桶 | 加载 `references/prompt-decompose.md`,重分配到 memory/skill/code |
 | 规则与模型职责混乱 | 规则做语义理解,模型做确定性约束 | 应用 Step 6(显性分配 model/code/eval) |
 | 能力重复 | 没有共享模块,相似逻辑散落各处 | 提取;建 capability registry;重构调用点 |
 | 没有负例 | 只测 happy path | 给每个 eval 加负例 + 边界例 + 回归例 |
