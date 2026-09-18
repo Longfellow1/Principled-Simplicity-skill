@@ -10,7 +10,7 @@
 
 **2. 已有能力优先 / Existing-capability-first** —— 创建新逻辑前,先在代码库、Prompt 库、架构里搜——大多数"缺失"的能力其实已经在某处存在。
 
-**3. Prompt 不是垃圾桶 / Prompt is not a trash bin** —— 不要把不清晰的产品逻辑、业务规则、架构债务塞进更长的 Prompt。(Prompt 本身是主症状时,加载 `references/prompt-triage.md`。)
+**3. Prompt 不是垃圾桶 / Prompt is not a trash bin** —— 不要把不清晰的产品逻辑、业务规则、架构债务塞进更长的 Prompt。(Prompt 本身是主症状时,加载 `references/prompt-decompose.md`。)
 
 **4. 好的抽象会减少分支 / Good abstraction removes branches** —— 如果一个所谓抽象**制造的分支比它消除的还多**,那就不是好抽象。**抽象前后数一数分支数**——数字不下降就拒绝。
 
@@ -22,7 +22,7 @@
 
 **8. 过早抽象也是反模式 / Premature abstraction is also an anti-pattern** —— 不要在第一次出现就抽象。等 ≥2 次共因实例后再提炼。"三 case 原则"是地板,不是天花板。
 
-(对"该不该现在抽象"拿不准时,加载 `references/readiness.md` 走 4 维评分。)
+(对"该不该现在抽象"拿不准时,加载 `references/abstraction-readiness.md` 走 5 维评分。)
 
 ---
 
@@ -48,7 +48,7 @@
 
 **输入 / Input:** 几个用户登录失败。提议修复:给每种错误文案加特殊处理。
 
-**Deep Fix 回应 / Response:**
+**Principled Simplicity 回应 / Response:**
 
 ```text
 Direct Judgment / 直接判决: mechanism-level solution(不是 case 补丁)。
@@ -105,7 +105,7 @@ Direct Judgment / 直接判决: 补丁扩散风险——选机制前先聚类。
 
 ## 影响来源(完整版)/ Influences (Full)
 
-| 来源 | 原则 | 对 Deep Fix 的启发 |
+| 来源 | 原则 | 对 Principled Simplicity 的启发 |
 |---|---|---|
 | Karpathy: Software 3.0 | 上下文、Prompt、工具、记忆是**程序的一部分**,不是装饰 | 把重复推理沉淀成可复用的 skill / context / eval |
 | Anthropic Skills 设计 | Skill 要**够窄**才能被准确路由,**够深**才能解决一类有意义问题 | 拒绝巨大万能 Prompt |
