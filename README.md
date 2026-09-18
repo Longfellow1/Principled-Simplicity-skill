@@ -160,8 +160,8 @@ migration path
 ## 使用
 
 ```bash
-git clone https://github.com/Longfellow1/principled-simplicity.git
-cd principled-simplicity
+git clone https://github.com/Longfellow1/Principled-Simplicity-skill.git
+cd Principled-Simplicity-skill
 ```
 
 核心 Skill 文件是 [`SKILL.md`](SKILL.md)。可用于 Claude Code、Codex 或其他支持 Skill / 系统指令注入的 Agent 工作流。
@@ -177,7 +177,7 @@ python references/deep-fix-scan.py /path/to/project
 仓库结构：
 
 ```text
-principled-simplicity/
+Principled-Simplicity-skill/
 ├── SKILL.md
 ├── README.md
 ├── README.en.md
@@ -214,7 +214,7 @@ principled-simplicity/
 
 如果问题还没进入工程阶段，真正需要先判断的是“这个需求到底该不该做”，可以使用：
 
-**[产品判断 · Product Judgment](https://github.com/Longfellow1/Product-judgment-skill)**  
+**[产品判断 · Product Judgment](https://github.com/Longfellow1/Product-Judgment-skill)**  
 *先判断需求，再写 PRD。*
 
 ---
