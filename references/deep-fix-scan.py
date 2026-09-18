@@ -3,7 +3,7 @@
 deep-fix-scan.py — 代码库证据收集器（开发者可选工具）
 
 职责：只观测，不判断。把客观事实交给 Claude，由 Claude 结合
-deep-fix skill 的 Step 0–2 做诊断。
+Principled Simplicity skill 的 Step 0–2 做诊断。
 
 适用场景：你有一个本地代码库，想在和 Claude 对话前先收集量化证据。
 非代码库用户无需运行此脚本——直接用 SKILL.md 的 Step 0 四个问题
@@ -15,7 +15,7 @@ deep-fix skill 的 Step 0–2 做诊断。
   python deep-fix-scan.py --full <path>    # 代码 + 自动查找 prompt 文件
 
 输出直接贴给 Claude，说：
-「根据这份报告，用 deep-fix skill 诊断根因，给对话模式判决。」
+「根据这份报告，用 Principled Simplicity skill 诊断根因，给出修复层级判决。」
 """
 
 import re
@@ -150,7 +150,7 @@ def analyze_prompt(text: str) -> tuple[dict, list[str]]:
 def format_report(report: ScanReport) -> str:
     lines = [
         "=" * 60,
-        "DEEP FIX SCAN — 观测报告 / Observation Report",
+        "PRINCIPLED SIMPLICITY SCAN — 观测报告 / Observation Report",
         f"路径: {report.path}",
         "=" * 60,
         "",
