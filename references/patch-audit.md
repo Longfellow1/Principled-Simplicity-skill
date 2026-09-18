@@ -1,4 +1,4 @@
-# Deep Fix — Patch Audit
+# Principled Simplicity — Patch Audit
 
 Load this when: the system already has accumulated patches and you need to assess the damage, find the worst hotspots, and plan a gradual cleanup without breaking things.
 
