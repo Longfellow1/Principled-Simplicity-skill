@@ -1,4 +1,4 @@
-# Deep Fix — Abstraction Readiness / 抽象成熟度评分
+# Principled Simplicity — Abstraction Readiness / 抽象成熟度评分
 
 > **何时加载 / Load this when:** 用户问「这个 pattern 我见了几次，要建机制吗？」「现在抽象会不会太早？」——即**该不该抽象、值不值得抽象**这类判断题。
 
@@ -76,7 +76,7 @@
 |---|---|
 | **5–7** | **观察。** 记录 case，设触发条件（如「出现第 4 次时重新评估」），打最小化补丁。现在抽象 = 过早抽象。 |
 | **8–10** | **轻量提取。** 抽个公共函数、共享 prompt 片段、统一数据结构即可。重点是让下次出现时容易识别为同类。 |
-| **11–13** | **投资建机制。** 走完整 Step 5 六字段规格，配 eval plan，显性分配 model/code/eval 责任。这是 Deep Fix 主战场。 |
+| **11–13** | **投资建机制。** 走完整 Step 5 六字段规格，配 eval plan，显性分配 model/code/eval 责任。这是 Principled Simplicity 的主战场。 |
 | **14–15** | **可能要建 Skill 或平台能力。** 这种复用面 + 痛苦，通常意味着的不只是机制，而是团队层共享资产。 |
 
 ---
