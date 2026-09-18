@@ -1,4 +1,4 @@
-# Deep Fix — Pattern Classification
+# Principled Simplicity — Pattern Classification
 
 Load this when the quick pattern check in `SKILL.md` is not enough to locate the root cause.
 
