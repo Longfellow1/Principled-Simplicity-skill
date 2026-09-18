@@ -156,7 +156,7 @@ def format_report(report: ScanReport) -> str:
         "",
         "本报告只呈现观测事实，不做诊断判断。",
         "把报告贴给 Claude，说：",
-        "「根据这份报告，用 deep-fix skill 诊断根因，给对话模式判决。」",
+        "「根据这份报告，用 Principled Simplicity skill 诊断根因，给出修复层级判决。」",
         "",
     ]
 
