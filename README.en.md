@@ -6,7 +6,7 @@
 
 **Fix the layer, not the case.**
 
-A mechanism-level repair skill distilled from real AI / Agent engineering practice.
+A mechanism-level architecture repair skill distilled from real AI / Agent engineering practice, designed for developing and repairing AI-agent runtimes and harnesses.
 
 It does not rush to answer “how do I patch this badcase?” It asks a harder question first: **why does this problem keep returning, and which layer should actually own the fix?**
 
@@ -16,7 +16,7 @@ It does not rush to answer “how do I patch this badcase?” It asks a harder q
 
 ## Why this exists
 
-AI systems easily fall into a pattern that feels productive but becomes increasingly expensive:
+AI systems easily fall into a pattern that feels productive but is actually running in circles:
 
 - one badcase → add one prompt line
 - another case → add keywords
@@ -24,7 +24,7 @@ AI systems easily fall into a pattern that feels productive but becomes increasi
 - multi-turn failure → add another rule
 - fix A → break B
 
-Each local fix appears to work, while the system becomes harder to understand, evaluate, and maintain.
+Each local fix appears to work, while the system becomes harder to understand, evaluate, and maintain — until it effectively loses extensibility.
 
 **Principled Simplicity is not about patching faster. It is about finding a stable mechanism that solves a class of failures.**
 
@@ -159,8 +159,8 @@ Principled Simplicity is not “refactor everything.” **Unnecessary abstractio
 ## Use
 
 ```bash
-git clone https://github.com/Longfellow1/principled-simplicity.git
-cd principled-simplicity
+git clone https://github.com/Longfellow1/Principled-Simplicity-skill.git
+cd Principled-Simplicity-skill
 ```
 
 The core skill is [`SKILL.md`](SKILL.md). It can be used with Claude Code, Codex, or other agent workflows that support reusable skills or system-instruction injection.
@@ -176,7 +176,7 @@ The script observes. The skill judges.
 Repository structure:
 
 ```text
-principled-simplicity/
+Principled-Simplicity-skill/
 ├── SKILL.md
 ├── README.md
 ├── README.en.md
@@ -213,7 +213,7 @@ It comes from a recurring engineering observation: when prompts, rules, routing,
 
 If the problem is still upstream — “should this demand be built at all?” — use:
 
-**[Product Judgment · 产品判断](https://github.com/Longfellow1/Product-judgment-skill)**  
+**[Product Judgment · 产品判断](https://github.com/Longfellow1/Product-Judgment-skill)**  
 *Judge the demand before writing the PRD.*
 
 ---
