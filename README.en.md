@@ -14,6 +14,21 @@ It does not rush to answer “how do I patch this badcase?” It asks a harder q
 
 ---
 
+## Install in one command
+
+Stop patching the same agent failure. Identify the broken mechanism, choose the right abstraction, and verify with regression tests.
+
+```bash
+npx skills add Longfellow1/Principled-Simplicity-skill --skill deep-fix
+```
+
+> The skill ID is `deep-fix` (the GitHub repository name is different). Requires Node.js/npm; the CLI fetches the skill directly from GitHub. No npm publishing required.
+
+[![skills.sh](https://skills.sh/b/Longfellow1/Principled-Simplicity-skill)](https://skills.sh/Longfellow1/Principled-Simplicity-skill)
+
+**Try it:** "Our agent keeps choosing the wrong tool. We have already added three prompt rules. Review the root cause and propose a regression plan."
+
+
 ## Why this exists
 
 AI systems easily fall into a pattern that feels productive but is actually running in circles:
@@ -159,6 +174,9 @@ Principled Simplicity is not “refactor everything.” **Unnecessary abstractio
 ## Use
 
 ```bash
+npx skills add Longfellow1/Principled-Simplicity-skill --skill deep-fix
+
+# Optional: clone the full source repository
 git clone https://github.com/Longfellow1/Principled-Simplicity-skill.git
 cd Principled-Simplicity-skill
 ```
