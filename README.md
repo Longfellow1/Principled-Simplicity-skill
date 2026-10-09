@@ -14,6 +14,21 @@
 
 ---
 
+## 一键安装
+
+遇到重复 badcase、Prompt 膨胀或 Agent 路由问题？用机制层修复代替不断叠加补丁。
+
+```bash
+npx skills add Longfellow1/Principled-Simplicity-skill --skill deep-fix
+```
+
+> Skill ID：`deep-fix`（与 GitHub 仓库名不同）。需要 Node.js/npm；CLI 直接从 GitHub 安装，无需发布 npm 包。
+
+[![skills.sh](https://skills.sh/b/Longfellow1/Principled-Simplicity-skill)](https://skills.sh/Longfellow1/Principled-Simplicity-skill)
+
+**安装后试试：** “Agent 总选错工具，已经加了三次 Prompt 规则。请分析根因，并提出可回归验证的机制级修复方案。”
+
+
 ## 为什么需要它
 
 AI 系统最容易进入一种看似高效、实际原地打转的状态：
@@ -160,6 +175,9 @@ migration path
 ## 使用
 
 ```bash
+npx skills add Longfellow1/Principled-Simplicity-skill --skill deep-fix
+
+# Optional: clone the full source repository
 git clone https://github.com/Longfellow1/Principled-Simplicity-skill.git
 cd Principled-Simplicity-skill
 ```
