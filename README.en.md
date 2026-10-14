@@ -1,12 +1,14 @@
 # Principled Simplicity · 大道至简 Skill
 
 <p align="center">
-  <img src="./assets/hero.webp" alt="Principled Simplicity · 大道至简" width="100%">
+  <img src="./assets/hero.webp" alt="Principled Simplicity (大道至简) banner: an architectural repair methodology for AI agent systems. Fix the layer, not the case. Pattern, Owner Layer, Mechanism, Eval" width="100%">
 </p>
 
 **Fix the layer, not the case.**
 
 A mechanism-level architecture repair skill distilled from real AI / Agent engineering practice, designed for developing and repairing AI-agent runtimes and harnesses.
+
+It is an agent skill ([`SKILL.md`](SKILL.md)) that traces recurring failures to their root cause and the layer that should own the fix. It can be used with Claude Code, Codex, or other agent workflows that support reusable skills or system-instruction injection. Install: `npx skills add Longfellow1/Principled-Simplicity-skill --skill deep-fix`.
 
 It does not rush to answer “how do I patch this badcase?” It asks a harder question first: **why does this problem keep returning, and which layer should actually own the fix?**
 
@@ -24,7 +26,7 @@ npx skills add Longfellow1/Principled-Simplicity-skill --skill deep-fix
 
 > The skill ID is `deep-fix` (the GitHub repository name is different). Requires Node.js/npm; the CLI fetches the skill directly from GitHub. No npm publishing required.
 
-[![skills.sh](https://skills.sh/b/Longfellow1/Principled-Simplicity-skill)](https://skills.sh/Longfellow1/Principled-Simplicity-skill)
+[![skills.sh page for Principled-Simplicity-skill](https://skills.sh/b/Longfellow1/Principled-Simplicity-skill)](https://skills.sh/Longfellow1/Principled-Simplicity-skill)
 
 **Try it:** "Our agent keeps choosing the wrong tool. We have already added three prompt rules. Review the root cause and propose a regression plan."
 
@@ -238,4 +240,8 @@ If the problem is still upstream — “should this demand be built at all?” �
 
 ## License
 
-Apache-2.0
+[Apache-2.0](LICENSE)
+
+---
+
+More from the author: [KeyPulse](https://github.com/Longfellow1/keypulse) (local memory layer for AI agents over MCP) · [CorpusFlow](https://github.com/Longfellow1/CorpusFlow) (corpus workbench for LLM fine-tuning and eval data)
