@@ -1,12 +1,14 @@
 # 大道至简 Skill · Principled Simplicity
 
 <p align="center">
-  <img src="./assets/hero.webp" alt="大道至简 · Principled Simplicity" width="100%">
+  <img src="./assets/hero.webp" alt="大道至简 Principled Simplicity 头图：面向 AI Agent 系统的架构修复方法，修问题，更要修层级（Fix the layer, not the case.）；Pattern、Owner Layer、Mechanism、Eval" width="100%">
 </p>
 
 **Fix the layer, not the case.**
 
 来自真实 AI / Agent 工程实践的机制层修复 Skill，适用于AI Agent runtime/harness的开发修复。
+
+这是一个 Agent Skill（[`SKILL.md`](SKILL.md)）：把反复出现的失败追溯到根因，并定位真正应该承接修复的那一层。可用于 Claude Code、Codex 或其他支持 Skill / 系统指令注入的 Agent 工作流；安装命令：`npx skills add Longfellow1/Principled-Simplicity-skill --skill deep-fix`。
 
 核心回答的问题是：**这个问题为什么反复出现，真正应该在哪一层解决？**
 
@@ -24,7 +26,7 @@ npx skills add Longfellow1/Principled-Simplicity-skill --skill deep-fix
 
 > Skill ID：`deep-fix`（与 GitHub 仓库名不同）。需要 Node.js/npm；CLI 直接从 GitHub 安装，无需发布 npm 包。
 
-[![skills.sh](https://skills.sh/b/Longfellow1/Principled-Simplicity-skill)](https://skills.sh/Longfellow1/Principled-Simplicity-skill)
+[![skills.sh 上的 Principled-Simplicity-skill 页面](https://skills.sh/b/Longfellow1/Principled-Simplicity-skill)](https://skills.sh/Longfellow1/Principled-Simplicity-skill)
 
 **安装后试试：** “Agent 总选错工具，已经加了三次 Prompt 规则。请分析根因，并提出可回归验证的机制级修复方案。”
 
