@@ -238,4 +238,4 @@ If the problem is still upstream — “should this demand be built at all?” �
 
 ## License
 
-Apache-2.0
+[Apache-2.0](LICENSE)
