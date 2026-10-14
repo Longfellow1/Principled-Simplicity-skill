@@ -241,3 +241,7 @@ If the problem is still upstream — “should this demand be built at all?” �
 ## License
 
 [Apache-2.0](LICENSE)
+
+---
+
+More from the author: [KeyPulse](https://github.com/Longfellow1/keypulse) (local memory layer for AI agents over MCP) · [CorpusFlow](https://github.com/Longfellow1/CorpusFlow) (corpus workbench for LLM fine-tuning and eval data)

@@ -242,3 +242,7 @@ Principled-Simplicity-skill/
 ## License
 
 [Apache-2.0](LICENSE)
+
+---
+
+作者的其他项目：[KeyPulse](https://github.com/Longfellow1/keypulse)（面向 AI Agent 的本地记忆层，经 MCP 提供）· [CorpusFlow](https://github.com/Longfellow1/CorpusFlow)（面向 LLM 微调 / 评测数据的语料工作台）
