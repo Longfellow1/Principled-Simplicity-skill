@@ -25,6 +25,7 @@ jobs:
           for fname in ('README.md', 'README.en.md'):
               readme = Path(fname).read_text(encoding='utf-8')
               assert 'npx skills add Longfellow1/Principled-Simplicity-skill --skill deep-fix' in readme
+          assert Path('LICENSE').is_file() and 'Apache License' in Path('LICENSE').read_text(encoding='utf-8'), 'LICENSE (Apache-2.0) required'
           for target in re.findall(r'\]\((?:\\./)?((?:examples|references|templates|scripts)/[^)#]+)\)', skill):
               assert Path(target).exists(), f'Missing reference: {target}'
           print('Skill structure, ID, install docs and local references OK')
